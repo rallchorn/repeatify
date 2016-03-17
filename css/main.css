@@ -18,6 +18,8 @@ body {
         display: block;
         margin: 20px auto;
         margin-top: 40px;
+        max-width: 100%;
+        height: auto;
     }
 
 .main-container {
@@ -42,7 +44,22 @@ body {
 
     .main-container li {
         font-size: 18px;
+        list-style-type: none;
     }
+
+    .main-container li:before {
+        content: "∞ ";
+        margin-right: 5px;
+    }
+
+    .main-container__sign-up {
+        background: #ffd8a5;
+        padding: 10px;
+    }
+
+        .main-container__sign-up span {
+            color: #010101;
+        }
 
 .main-footer {
     border-top: 10px solid #ee7098;
@@ -63,4 +80,38 @@ body {
         margin-right: 15px;
         display: inline-block;
         vertical-align: middle;
+    }
+
+.form {
+    margin: 15px 0;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+    .form input {
+        font-size: 18px;
+        color: #010101;
+        padding: 15px;
+        height: 50px;
+        width: 70%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .form-group {
+        margin-bottom: 5px;
+    }
+
+    .form .btn {
+        background: #3eba81;
+        color: #FFF;
+        height: 50px;
+        display: inline-block;
+        width: 30%;
+        margin-left: -5px;
+        vertical-align: middle;
+    }
+
+    .form .btn:hover {
+        background: #62cf9d;
     }
