@@ -1,0 +1,66 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+    background: #e64d7e;
+    color: #FFF;
+}
+
+.main-header {
+    background: #3eba81;
+    border-top: #62cf9d 10px solid;
+    height: 200px;
+}
+
+    .main-header__image {
+        display: block;
+        margin: 20px auto;
+        margin-top: 40px;
+    }
+
+.main-container {
+    background: #cd7a0f;
+    border-top: 10px solid #f5a031;
+    padding: 20px 0;
+}
+
+    .main-container__image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main-container h1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .main-container p {
+        font-size: 24px;
+    }
+
+    .main-container li {
+        font-size: 18px;
+    }
+
+.main-footer {
+    border-top: 10px solid #ee7098;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+    .main-footer h2, .main-footer p {
+        color: #FFF;
+    }
+
+    .main-footer__logos {
+        padding-top: 60px;
+        vertical-align: middle;
+    }
+
+    .main-footer__logos img {
+        margin-right: 15px;
+        display: inline-block;
+        vertical-align: middle;
+    }
